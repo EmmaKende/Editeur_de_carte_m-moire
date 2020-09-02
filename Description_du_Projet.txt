@@ -1,0 +1,34 @@
+ Ce texte est une description de mon projet du semestre 2 en Qt
+
+1) Membres du projet: Kende Emmanuela
+
+2) Description du projet ( les classes ):
+
+mon projet est un editeur de carte memoire, 
+une carte memoire est un fichier qui contient à la fois une question (au recto)
+et sa réponse (au verso).
+
+Afin de le modéliser, j'ai réalisé plusieurs classe en C++
+ainsi on y retrouve la classe
+Cartememoire( qui permet de créer un objet carte mémoire)
+Paquet (qui permet de créer un objet Paquet, c'est à dire le dossier qui contient une ou plusieurs carte memoire)
+Centrecontrole ( qui permet de mettre en relation une carte, son paquet, et son chemin d'accès)
+
+J'ai aussi inclue dans mon projet les differentes bibliothèques qui permettent de modeliser mes classes
+ (ils faut obligatoirement inclure ces dibliothèques)
+
+3)  Description de l'interface graphique:
+
+ L'interface permet de créer un Paquet qui contiendra une ou plusieurs cartes mémoire:
+ pour creer un paquet, il faut entrer le "nom" du paquet (dossier) et cliquer sur  "Créer", cela creer de manière automatique
+un dossier qui sera ranger dans le repètoire " C:\...\Projet_Qt\build-Projet_carte-Desktop_Qt_5_14_1_MinGW_64_bit-Debug " ce dossier contient tous les paquets 
+et fichier carte memoire.
+un fois le paquet crée on peut ensuite creer la carte memoire (fichier) en entrant le nom de la carte, la question et la reponse, on clique ensuite sur "Enregistrer"
+on peut enuite afficher une carte mémoire (la question et la reponse), modifier un Paquet ( modifier la cartememoire), supprimer un paquet ou la carte mémoire,
+Charger les Paquets ( afficher toute la liste des Paquets de carte mémoire), restaurer la page, et fermer la Fenêtre.
+La Carte memoire est modeliser comme suit: la question est inscrite sur la première ligne et la reponse est inscrite sur la deuxième ligne.
+
+4) Difficultés rencontrées:
+
+la première difficulté a été l'installation de QT sur mon ordinateur (je n'avais pas assez de mémoire, mais j'ai resolu mon problème en installant une version antérieure)
+Ensuite le fait que je ne connaissais pas ce langage, j'ai dû prendre plus de temps pour comprendre. 
